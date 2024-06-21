@@ -50,7 +50,7 @@ const Footer = () => {
             <Image src={Qr} alt="qr" className="w-40" />
             <p className="text-white text-md mt-2">For more info scan here<br/> Number - 9705311222</p>
           </div>
-          <div className="md:w-2/3 flex flex-col justify-end">
+          <div className="md:w-2/3 flex flex-col justify-end py-5 sm:hidden md:block lg:block">
             <h1 className="text-3xl font-bold text-[#7ABF4E] tracking-wide text-right">
               QUICK LINKS
             </h1>

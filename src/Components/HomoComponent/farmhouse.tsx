@@ -41,12 +41,12 @@ const Farmhouse = () => {
         </div>
       </section>
       <section className="relative flex flex-col items-center">
-        <Image src={left} alt="leaf" className="absolute left-0 lg:w-32 sm:hidden" />
-        <Image src={right} alt="leaf" className="absolute right-0 lg:w-32 sm:hidden" />
+        <Image src={left} alt="leaf" className="absolute left-0 lg:w-32 sm:hidden lg:block" />
+        <Image src={right} alt="leaf" className="absolute right-0 lg:w-32 sm:hidden lg:block" />
         <h1 className="text-green font-bold lg:text-4xl my-10 text-center md:text-2xl sm:text-xl">
           Why Choose Mruganayani by Kapil Farms?
         </h1>
-        <Image src={infograph} alt="why" className=" m-5 w-4/5 sm:w-full" />
+        <Image src={infograph} alt="why" className=" m-5 md:w-4/5  sm:w-full" />
       </section>
     </>
   );

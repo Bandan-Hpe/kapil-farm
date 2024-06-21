@@ -56,8 +56,8 @@ export const Card = React.memo(function CardComponent(props: CardProps) {
           draggable={false}
           src={cover}
           alt={`Slide ${dataIndex}`}
-          width={400}
-          height={400}
+          width={500}
+          height={500}
           className="rounded-lg shadow-xl"
         />
       </div>
