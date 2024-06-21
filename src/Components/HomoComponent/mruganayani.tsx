@@ -11,37 +11,37 @@ const Mruganayani = () => {
     <section className="mt-10 md:rounded-full md:px-5 sm:rounded-md shadow-2xl mx-w-75 md:p-10 mx-5">
       <div className=" py-8 lg:flex items-center  justify-around">
         <div className="flex md:justify-center sm:justify-center">
-        <Image src={mrugayan} alt="mrugayan" />
+        <Image src={mrugayan} alt="mrugayan"  />
 
 
         </div>
         <div className="">
-          <h1 className="text-green lg:text-4xl font-bold text-center md:text-2xl sm:text-2xl">
+          <h1 className="text-green lg:text-4xl font-bold text-center md:text-2xl sm:text-xl">
             Whats Sets <span className="text-[#7ABF4E]">Mruganayani</span> Apart?
           </h1>
           <p className="text-center text-[#BC9D3D]">
             Unparalleled access to farmland investments with
           </p>
-          <div className="flex flex-wrap justify-around mt-8 gap-5">
+          <div className="flex flex-wrap justify-around mt-8 gap-[20px]">
             <div className="flex flex-col items-center">
               <Image src={icon1} alt="icon1" />
-              <p className="text-black sm:text-md">100% Clear Time</p>
+              <p className="text-black text-sm">100% Clear Time</p>
             </div>
             <div className="flex flex-col items-center">
               <Image src={icon2} alt="icon1" />
-              <p className="text-black sm:text-md">Patta Passbook</p>
+              <p className="text-black text-sm">Patta Passbook</p>
             </div>
             <div className="flex flex-col items-center">
               <Image src={icon3} alt="icon1" />
-              <p className="text-black sm:text-md">Encroachment-Free</p>
+              <p className="text-black text-sm">Encroachment-Free</p>
             </div>
             <div className="flex flex-col items-center">
               <Image src={icon4} alt="icon1" />
-              <p className="text-black sm:text-md">TS Rythu Bharosa</p>
+              <p className="text-black text-sm">TS Rythu Bharosa</p>
             </div>
             <div className="flex flex-col items-center">
               <Image src={icon5} alt="icon1" />
-              <p className="text-black sm:text-md">
+              <p className="text-black text-sm">
                 50 kg Farm Produce Annually
               </p>
             </div>

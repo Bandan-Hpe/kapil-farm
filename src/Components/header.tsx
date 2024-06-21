@@ -44,14 +44,14 @@ const Header = () => {
       <nav className="w-75">
         {/* Hamburger icon */}
         <span
-          className="lg:hidden md:hidden sm:block px-5 text-2xl text-green cursor-pointer"
+          className="lg:hidden md:block sm:block px-5 text-2xl text-green cursor-pointer"
           onClick={toggleNav}
         >
           <FaBars />
         </span>
         
         {/* Navigation links */}
-        <ul className={`lg:flex gap-x-5 text-[16px]  md:flex ${isNavOpen ? 'hidden' : 'block '} sm:absolute lg:relative sm:left-0 lg:bg-white sm:bg-green  md:w-42 sm:w-full sm:p-2 sm:mt-5 lg:m-0`}>
+        <ul className={`lg:flex gap-x-5 text-[16px]   ${isNavOpen ? 'hidden' : 'block '} sm:absolute lg:relative sm:left-0 lg:bg-white sm:bg-green  md:w-42 sm:w-full sm:p-2 sm:mt-5 lg:m-0`}>
           {navLinks.map((link) => (
             <li key={link.href} className='sm:text-center sm:m-4'>
               <Link href={link.href} className="text-[15px] lg:text-green sm:text-white   " onClick={toggleNav}>

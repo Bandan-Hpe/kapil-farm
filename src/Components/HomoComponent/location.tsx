@@ -26,7 +26,7 @@ const Location = () => {
         </div>
       </div>
 
-      <div className="bg-[url('/assets/moneyplant.png')]  bg-cover h-[400px] mt-10 ">
+      <div className="bg-[url('/assets/moneyplant.png')] bg-cover h-[400]  mt-10   ">
         <div className=" px-10 py-10 flex flex-col items-start justify-end h-[100%]">
           <h1 className="lg:text-4xl text-white font-bold uppercase sm:text-2xl md:text-2xl ">
             Start your financial <br /> growth today!
