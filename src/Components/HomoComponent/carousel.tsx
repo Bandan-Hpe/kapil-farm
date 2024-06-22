@@ -76,6 +76,7 @@ export default function ResponsiveCarousel() {
             let currentVisibleSlide = 7;
             if (parentWidth <= 1440) currentVisibleSlide = 7;
             if (parentWidth <= 768) currentVisibleSlide = 5;
+
             return (
               <StackedCarousel
                 ref={carouselRef}
