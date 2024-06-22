@@ -10,7 +10,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <div className="lg:w-1/2 flex lg:justify-end md:items-end  relative  lg:m-10 sm:justify-center">
-        <div className="bg-lightgolden  rounded-2xl max-w-[400px] sm:my-5">
+        <div className="bg-lightgolden  rounded-2xl max-w-[500px] sm:my-5">
           <div className="px-8 py-8">
             <p className="text-center">
               If you are looking to buy farmland in Hyderabad,

@@ -7,14 +7,14 @@ import infograph from "../../../public/assets/infograph.png";
 const Farmhouse = () => {
   return (
     <>
-      <section className="bg-[url('/assets/farm.png')] bg-cover lg:h-[900px]  flex items-center px-10 py-10 mt-10">
+      <section className="bg-[url('/assets/farm.png')] bg-cover lg:h-screen flex items-center px-10 py-10 mt-10">
         <div className=" lg:flex rounded-3xl  align-items-center bg-white  px-10 py-10 gap-10">
           <div className="lg:w-1/2 flex items-center  ">
             <Image src={farm} alt="farm" className="rounded-3xl " />
           </div>
           <div className="lg:w-1/2 md:mt-10 ">
-            <h1 className="lg:text-2xl text-green font-bold tracking-wider md:2xl">
-              Invest in the 100 acres of <br /> pure bliss at Kapil Farms
+            <h1 className="lg:text-5xl text-green font-bold tracking-wider md:text-3xl sm:text-xl sm:mt-10">
+              Invest in the <span className="text-[#7ABF4E]">100 acres</span> of <br /> pure bliss at Kapil Farms
             </h1>
             <p className="text-[#BC9D3D] lg:text-lg tracking-wide mt-2">
               Start investing early for a bright financial future!

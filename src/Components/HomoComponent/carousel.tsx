@@ -47,53 +47,62 @@ type CardProps = {
   };
 
 // Card component definition
-export const Card = React.memo(function CardComponent(props: CardProps) {
-    const { data, dataIndex } = props;
-    const { cover } = data[dataIndex];
-    return (
-      <div className="p-1 bg-white rounded-md overflow-hidden">
-        <Image
-          draggable={false}
-          src={cover}
-          alt={`Slide ${dataIndex}`}
-          width={500}
-          height={500}
-          className="rounded-lg shadow-xl"
-        />
-      </div>
-    );
-  });
 
 // ResponsiveCarousel component definition
-export default function ResponsiveCarousel() {
-    const ref = React.useRef();
-    return (
-      <div className="w-full  my-24 overflow-hidden flex justify-center  ">
-        <div className="w-2/3 ">
-        <ResponsiveContainer
-          carouselRef={ref}
-          render={(parentWidth, carouselRef) => {
-            let currentVisibleSlide = 7;
-            if (parentWidth <= 1440) currentVisibleSlide = 7;
-            if (parentWidth <= 768) currentVisibleSlide = 5;
+export default function ResponsiveCarousel(props) {
+  const ref = React.useRef();
+  return (
+    <div style={{ width: "100%", position: "relative" }} className="mt-10">
+      <ResponsiveContainer
+        carouselRef={ref}
+        render={(parentWidth, carouselRef) => {
+          let currentVisibleSlide = 5;
+          if (parentWidth <= 1440) currentVisibleSlide = 5;
+          if (parentWidth <= 1024) currentVisibleSlide = 5;
 
-            return (
-              <StackedCarousel
-                ref={carouselRef}
-                slideComponent={Card}
-                slideWidth={parentWidth < 800 ? parentWidth - 40 : 750}
-                carouselWidth={parentWidth}
-                data={data} 
-                currentVisibleSlide={currentVisibleSlide}
-                maxVisibleSlide={7}
-                useGrabCursor
-              />
-            );
-          }}
-        />
+          if (parentWidth <= 768) currentVisibleSlide = 1;
+          return (
+            <StackedCarousel
+              ref={carouselRef}
+              slideComponent={Card}
+              slideWidth={parentWidth < 800 ? parentWidth - 40 : 750}
+              carouselWidth={parentWidth}
+              data={data}
+              currentVisibleSlide={currentVisibleSlide}
+              maxVisibleSlide={5}
+              useGrabCursor
+            />
+          );
+        }}
+      />
+    </div>
+  );
+}
 
-        </div>
-       
-      </div>
-    );
-  }
+export const Card = React.memo(function CardComponent(props: CardProps) {
+  const { data, dataIndex } = props;
+  const { cover } = data[dataIndex];
+  return (
+    <div
+    style={{
+      width: "100%",
+      height: 400,
+      userSelect: "none",
+    }}
+    className="my-slide-component mt-10"
+  >
+    <img
+      style={{
+        height: "100%",
+        width: "100%",
+        objectFit: "cover",
+        borderRadius: 45,
+      }}
+      draggable={false}
+      src={cover}
+      alt="cover"
+      className=" border-2 border-white"
+    />
+  </div>
+  );
+});

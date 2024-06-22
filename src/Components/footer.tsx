@@ -14,12 +14,12 @@ const Footer = () => {
         <div className="lg:flex ">
           <div className="lg:w-1/2">
             <Image src={footerlogo} alt="logo" />
-            <p className="text-white lg:w-96 mt-3">
-              Kapil Farms presents an exceptional opportunity to experience
+            <p className="text-white  mt-3">
+              Kapil Farms presents an exceptional opportunity to experience<br/>
               tranquility away from the fast-paced urban environment.
             </p>
           </div>
-          <div className="lg:w-1/2 flex  flex-col md:items-start sm:items-start sm:mt-5">
+          <div className="lg:w-1/2 flex  flex-col md:items-start sm:items-start sm:mt-5 lg:items-end">
             <button className="bg-white text-green px-2 py-2 font-bold rounded-full">
               Subscribe Now
             </button>
