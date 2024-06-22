@@ -73,9 +73,9 @@ export default function ResponsiveCarousel() {
         <ResponsiveContainer
           carouselRef={ref}
           render={(parentWidth, carouselRef) => {
-            let currentVisibleSlide = 5;
-            if (parentWidth <= 1440) currentVisibleSlide = 5;
-            if (parentWidth <= 768) currentVisibleSlide = 1;
+            let currentVisibleSlide = 7;
+            if (parentWidth <= 1440) currentVisibleSlide = 7;
+            if (parentWidth <= 768) currentVisibleSlide = 5;
             return (
               <StackedCarousel
                 ref={carouselRef}
@@ -84,7 +84,7 @@ export default function ResponsiveCarousel() {
                 carouselWidth={parentWidth}
                 data={data} 
                 currentVisibleSlide={currentVisibleSlide}
-                maxVisibleSlide={5}
+                maxVisibleSlide={7}
                 useGrabCursor
               />
             );

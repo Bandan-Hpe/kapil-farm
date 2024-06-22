@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="lg:flex ">
           <div className="lg:w-1/2">
             <Image src={footerlogo} alt="logo" />
-            <p className="text-white w-96 mt-3">
+            <p className="text-white lg:w-96 mt-3">
               Kapil Farms presents an exceptional opportunity to experience
               tranquility away from the fast-paced urban environment.
             </p>
@@ -50,33 +50,33 @@ const Footer = () => {
             <Image src={Qr} alt="qr" className="w-40" />
             <p className="text-white text-md mt-2">For more info scan here<br/> Number - 9705311222</p>
           </div>
-          <div className="lg:w-2/3 flex flex-col justify-end py-5 sm:hidden md:block lg:block">
+          <div className="lg:w-2/3 flex flex-col justify-end py-5 sm:hidden md:flex lg:flex">
             <h1 className="text-3xl font-bold text-[#7ABF4E] tracking-wide lg:text-right ">
               QUICK LINKS
             </h1>
-            <ul className="flex justify-between mt-2">
+            <ul className="flex justify-between mt-2 ">
               <li>
-                <Link href="#" className="text-white uppercase">
+                <Link href="#" className="text-white uppercase text-sm">
                   who are we
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white uppercase">
+                <Link href="#" className="text-white uppercase text-sm">
                   HIGHLIGHTS
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white uppercase">
+                <Link href="#" className="text-white uppercase text-sm">
                   Farmland
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white uppercase">
+                <Link href="#" className="text-white uppercase text-sm">
                   Amenities
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white uppercase">
+                <Link href="#" className="text-white uppercase text-sm">
                   CONTACT US
                 </Link>
               </li>

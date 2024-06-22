@@ -9,7 +9,7 @@ const Location = () => {
         <h1 className="text-green uppercase text-3xl font-bold text-center">
           Location
         </h1>
-        <p className="text-[#BC9D3D] text-center text-lg">
+        <p className="text-[#BC9D3D] text-center lg:text-lg ">
           Strategically located in Narayankhed, the high-growth corridor
         </p>
       </div>

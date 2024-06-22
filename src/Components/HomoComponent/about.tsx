@@ -3,11 +3,11 @@ import kapil from "../../../public/assets/kapil-logo.png";
 
 const About = () => {
   return (
-    <div className="mt-10 lg:flex items-center">
+    <div className="mt-10 lg:flex items-center sm:px-10">
       <div className="lg:w-1/3 flex justify-center">
         <Image src={kapil} alt="kapil-logo" />
       </div>
-      <div className="lg:w-2/3 px-5  mx-5 h-[500px] hover:shadow-green hover:shadow-md rounded-tl-[100px] rounded-tr-[30px]  rounded-bl-[30px] rounded-br-[100px] flex flex-col justify-center gap-10 sm:mt-5">
+      <div className="lg:w-2/3 px-5  mx-5 h-[500px] hover:shadow-green hover:shadow-md rounded-tl-[100px] rounded-tr-[30px]  rounded-bl-[30px] rounded-br-[100px] flex flex-col justify-center gap-10 sm:mt-10">
         <p className=" lg:text-xl text-green text-justify tracking-wide sm:text-sm">
           Kapil Group started its journey with chit funds in 1981 and ventured
           into real estate in 1982. Since then, it has expanded into 25 diverse
