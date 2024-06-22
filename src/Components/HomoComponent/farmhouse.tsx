@@ -13,7 +13,7 @@ const Farmhouse = () => {
             <Image src={farm} alt="farm" className="rounded-3xl " />
           </div>
           <div className="lg:w-1/2 md:mt-10 ">
-            <h1 className="lg:text-5xl text-green font-bold tracking-wider md:text-3xl sm:text-xl sm:mt-10">
+            <h1 className="lg:text-4xl text-green font-bold tracking-wider md:text-3xl sm:text-xl sm:mt-10">
               Invest in the <span className="text-[#7ABF4E]">100 acres</span> of <br /> pure bliss at Kapil Farms
             </h1>
             <p className="text-[#BC9D3D] lg:text-lg tracking-wide mt-2">

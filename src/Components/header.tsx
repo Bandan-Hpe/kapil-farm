@@ -51,10 +51,10 @@ const Header = () => {
         </span>
         
         {/* Navigation links */}
-        <ul className={`lg:flex gap-x-5 text-[16px]   ${isNavOpen ? 'hidden' : 'block '} sm:absolute lg:relative sm:left-0 lg:bg-white sm:bg-green sm:z-50 md:w-42 sm:w-full sm:p-2 sm:mt-5 lg:m-0`}>
+        <ul className={`lg:flex gap-x-10 text-[16px]   ${isNavOpen ? 'hidden' : 'block '} sm:absolute lg:relative sm:left-0 lg:bg-white sm:bg-green sm:z-50 md:w-42 sm:w-full sm:p-2 sm:mt-5 lg:m-0`}>
           {navLinks.map((link) => (
             <li key={link.href} className='sm:text-center sm:m-4 md:m-0 lg:m-0'>
-              <Link href={link.href} className="text-[15px] lg:text-green sm:text-white   " onClick={toggleNav}>
+              <Link href={link.href} className="text-[16px] lg:text-green sm:text-white   " onClick={toggleNav}>
                 
                   {link.label}
                 
