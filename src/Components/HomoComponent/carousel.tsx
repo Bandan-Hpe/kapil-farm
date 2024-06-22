@@ -49,7 +49,7 @@ type CardProps = {
 // Card component definition
 
 // ResponsiveCarousel component definition
-export default function ResponsiveCarousel(props) {
+export default function ResponsiveCarousel() {
   const ref = React.useRef();
   return (
     <div style={{ width: "100%", position: "relative" }} className="mt-10">
