@@ -7,8 +7,8 @@ const About = () => {
       <div className="lg:w-1/3 flex justify-center">
         <Image src={kapil} alt="kapil-logo" />
       </div>
-      <div className="lg:w-2/3    p-10  hover:shadow-green hover:shadow-md rounded-tl-[100px] rounded-tr-[30px]  rounded-bl-[30px] rounded-br-[100px] flex flex-col justify-center gap-10 sm:mt-10">
-        <p className=" lg:text-2xl md:text-xl text-green text-justify tracking-wide sm:text-sm m-5">
+      <div className="lg:w-2/3 m-5   lg:p-10  hover:shadow-green hover:shadow-md rounded-tl-[100px] rounded-tr-[30px]  rounded-bl-[30px] rounded-br-[100px] flex flex-col justify-center gap-10 sm:mt-10">
+        <p className=" lg:text-2xl md:text-xl text-green text-justify tracking-wide sm:text-sm sm:mt-14 m-5">
           Kapil Group started its journey with chit funds in 1981 and ventured
           into real estate in 1982. Since then, it has expanded into 25 diverse
           verticals, including financial services, solar power, agriculture,
