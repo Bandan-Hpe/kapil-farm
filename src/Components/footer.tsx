@@ -12,9 +12,9 @@ const Footer = () => {
       <Image src={footer} alt="footerimg" />
       <section className="bg-[#0C352C]  px-10 py-5">
         <div className="lg:flex ">
-          <div className="lg:w-1/2 sm:flex sm:flex-col sm:items-center lg:block">
+          <div className="lg:w-1/2 sm:flex sm:flex-col sm:items-center lg:block md:block">
             <Image src={footerlogo} alt="logo" />
-            <p className="text-white  mt-3 sm:text-center lg:text-justify md:text-justify"> 
+            <p className="text-white  mt-3 sm:text-center lg:text-justify md:text-left"> 
               Kapil Farms presents an exceptional opportunity to experience<br/>
               tranquility away from the fast-paced urban environment.
             </p>
