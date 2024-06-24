@@ -91,7 +91,7 @@ export const Card = React.memo(function CardComponent(props: CardProps) {
     }}
     className="my-slide-component mt-10"
   >
-    <img
+    <Image
       style={{
         height: "100%",
         width: "100%",
@@ -101,6 +101,7 @@ export const Card = React.memo(function CardComponent(props: CardProps) {
       draggable={false}
       src={cover}
       alt="cover"
+      fill
       className=" border-2 border-white"
     />
   </div>
