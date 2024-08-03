@@ -64,7 +64,7 @@ const Header = () => {
           {navLinks.map((link) => (
             <li
               key={link.href}
-              className="sm:text-center sm:m-4 md:m-0 lg:m-0 flex items-center"
+              className="sm:text-center sm:m-4 md:m-4 lg:m-0 lg:flex lg:items-center"
             >
               <Link
                 href={link.href}
@@ -76,10 +76,10 @@ const Header = () => {
             </li>
           ))}
           <div>
-            <li className="text-[16px] lg:text-green sm:text-white   ">
+            <li className="text-[16px] lg:text-green sm:text-white sm:text-center  sm:m-4 md:m-4 lg:m-0  ">
               <Link href="tel:+91-9839837280">Call: +91-9839837280</Link>
             </li>
-            <li className="text-[16px] lg:text-green sm:text-white   ">
+            <li className="text-[16px] lg:text-green sm:text-white  sm:text-center sm:m-4 md:m-4 lg:m-0">
               <Link href="mailto:marketing@kapilfarms.in">
                 Email: marketing@kapilfarms.in
               </Link>

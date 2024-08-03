@@ -29,6 +29,11 @@ const HeroSection = () => {
         toast.success(data.message);
         setFormData({ name: "", number: "", email: "" });
         setLoading(false);
+      } else {
+        toast.error(data.message);
+        setFormData({ name: "", number: "", email: "" });
+
+        setLoading(false);
       }
 
       console.log(data);

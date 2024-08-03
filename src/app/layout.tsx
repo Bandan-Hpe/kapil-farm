@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/Components/header";
 import Footer from "@/Components/footer";
 import Container from "@/Components/container";
-import "react-toastify/dist/ReactToastify.css";
+// import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
 const inter = Poppins({ weight: "400", subsets: ["latin"], display: "swap" });
