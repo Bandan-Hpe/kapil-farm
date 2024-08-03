@@ -5,6 +5,7 @@ import Link from "next/link";
 import fb from "./../../public/assets/icons/fb.png";
 import insta from "./../../public/assets/icons/insta.png";
 import ln from "./../../public/assets/icons/ln.png";
+import yu from "./../../public/assets/icons/youtube.png";
 import Qr from "./../../public/assets/QRcode.jpg";
 const Footer = () => {
   return (
@@ -40,6 +41,11 @@ const Footer = () => {
               <li>
                 <Link href="https://www.linkedin.com/company/mruganayani-farms/ " target="_blank">
                   <Image src={ln} alt="ln" className="w-10"/>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.youtube.com/@KapilMruganayani " target="_blank">
+                  <Image src={yu} alt="ln" className="w-10"/>
                 </Link>
               </li>
             </ul>

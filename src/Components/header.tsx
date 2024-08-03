@@ -76,11 +76,11 @@ const Header = () => {
             </li>
           ))}
           <div>
-            <li className="text-[16px] lg:text-green sm:text-white sm:text-center  sm:m-4 md:m-4 lg:m-0  ">
-              <Link href="tel:+91-9839837280">Call: +91-9839837280</Link>
+            <li className="text-[16px] lg:text-green sm:text-white sm:text-center lg:text-right md:text-right xl:text-right  sm:m-4 md:m-4 lg:m-0  ">
+              <Link href="tel:+91-9839837280" className="text-bold">Call: +91-9839837280</Link>
             </li>
             <li className="text-[16px] lg:text-green sm:text-white  sm:text-center sm:m-4 md:m-4 lg:m-0">
-              <Link href="mailto:marketing@kapilfarms.in">
+              <Link href="mailto:marketing@kapilfarms.in" className="text-bold">
                 Email: marketing@kapilfarms.in
               </Link>
             </li>
