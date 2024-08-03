@@ -38,7 +38,12 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center py-4 px-5">
       {/* Logo */}
-      <Image src={logo} alt="Logo" priority className="sm:w-24 md:w-32 lg:w-32 xl:w-32" />
+      <Image
+        src={logo}
+        alt="Logo"
+        priority
+        className="sm:w-24 md:w-32 lg:w-32 xl:w-32"
+      />
 
       {/* Navbar */}
       <nav className="w-75">
@@ -57,7 +62,10 @@ const Header = () => {
           } sm:left-0 lg:bg-white sm:bg-green sm:z-50 md:w-42 sm:w-full sm:p-2 sm:mt-5 lg:m-0`}
         >
           {navLinks.map((link) => (
-            <li key={link.href} className="sm:text-center sm:m-4 md:m-0 lg:m-0">
+            <li
+              key={link.href}
+              className="sm:text-center sm:m-4 md:m-0 lg:m-0 flex items-center"
+            >
               <Link
                 href={link.href}
                 className="text-[16px] lg:text-green sm:text-white   "
@@ -67,6 +75,16 @@ const Header = () => {
               </Link>
             </li>
           ))}
+          <div>
+            <li className="text-[16px] lg:text-green sm:text-white   ">
+              <Link href="tel:+91-9839837280">Call: +91-9839837280</Link>
+            </li>
+            <li className="text-[16px] lg:text-green sm:text-white   ">
+              <Link href="mailto:marketing@kapilfarms.in">
+                Email: marketing@kapilfarms.in
+              </Link>
+            </li>
+          </div>
         </ul>
       </nav>
     </header>

@@ -18,7 +18,7 @@ export async function POST(request: Request) {
 
     const mailData = {
       from: process.env.EMAIL_USER,
-      to: "bandanpradhan456@gmail.com ",
+      to: "dm@kapilfarms.in",
       subject: `New Lead From Website`,
       html: `<h1>Full Name: ${name}</h1>
       <h1>Number: ${number}</h1>
