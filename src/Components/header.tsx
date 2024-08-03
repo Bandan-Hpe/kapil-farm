@@ -8,19 +8,19 @@ import { FaBars } from "react-icons/fa";
 // Define navigation links
 const navLinks = [
   {
-    href: "/",
+    href: "#whoweare",
     label: "WHO ARE WE",
   },
   {
-    href: "/highlights",
+    href: "#highlights",
     label: "HIGHLIGHTS",
   },
   {
-    href: "/projects",
+    href: "#projects",
     label: "OUR PROJECTS",
   },
   {
-    href: "/contact",
+    href: "#contact",
     label: "CONTACT US",
   },
 ];
@@ -38,7 +38,7 @@ const Header = () => {
   return (
     <header className="flex justify-between items-center py-4 px-5">
       {/* Logo */}
-      <Image src={logo} alt="Logo" priority className="sm:w-24" />
+      <Image src={logo} alt="Logo" priority className="sm:w-24 md:w-32 lg:w-32 xl:w-32" />
 
       {/* Navbar */}
       <nav className="w-75">

@@ -1,8 +1,11 @@
+"use client";
 import Image from "next/image";
 import loc1 from "../../../public/assets/loc-1.png";
 import loc from "../../../public/assets/loc.png";
+import { useRouter  } from "next/navigation";
 
 const Location = () => {
+  const Router=useRouter();
   return (
     <section className="mt-10 ">
       <div>
@@ -10,7 +13,7 @@ const Location = () => {
           Location
         </h1>
         <p className="text-[#BC9D3D] text-center lg:text-lg ">
-          Strategically located in Narayankhed, the high-growth corridor
+          Strategically located in Sangareddy, the high-growth corridor
         </p>
       </div>
       <div className="lg:flex mt-10 gap-5 mx-5">
@@ -31,7 +34,7 @@ const Location = () => {
           <h1 className="lg:text-4xl text-white font-bold uppercase sm:text-2xl md:text-2xl  ">
             Start your financial <br /> growth today!
           </h1>
-          <button className="text-white font-bold text-xl bg-[#7ABF4E] px-4 py-3 rounded-full mt-5">
+          <button className="text-white font-bold text-xl bg-[#7ABF4E] px-4 py-3 rounded-full mt-5" onClick={() => Router.push('#contact')}>
             Contact Us
           </button>
         </div>

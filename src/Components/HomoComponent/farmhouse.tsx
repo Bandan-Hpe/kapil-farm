@@ -38,14 +38,14 @@ const Farmhouse = () => {
               The earlier you begin investing, the more time you have to see
               your gains grow, build wealth, and secure a financial future. If
               you re searching for the ideal investment opportunity, look no
-              further—invest in Mruganayani, an expansive 50-acre oasis of
+              further—invest in Mruganayani, an expansive 100-acre oasis of
               untouched beauty. Secure your investment today and pave the way
               for a prosperous tomorrow!
             </p>
           </div>
         </div>
       </section>
-      <section className="relative flex flex-col items-center overflow-hidden">
+      <section className="relative flex flex-col items-center overflow-hidden" >
         <Image
           src={left}
           alt="leaf"
