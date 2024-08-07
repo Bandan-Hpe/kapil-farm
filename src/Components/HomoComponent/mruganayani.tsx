@@ -17,7 +17,7 @@ const Mruganayani = () => {
         </div>
         <div className="lg:w-2/3">
           <h1 className="text-green lg:text-4xl font-bold text-center md:text-2xl sm:text-xl">
-            Whats Sets <span className="text-[#7ABF4E]">Mruganayani</span> Apart?
+            What Sets <span className="text-[#7ABF4E]">Mruganayani</span> Apart?
           </h1>
           <p className="text-center text-[#BC9D3D] mt-3">
             Unparalleled access to farmland investments with

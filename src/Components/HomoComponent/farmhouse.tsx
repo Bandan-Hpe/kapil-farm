@@ -11,7 +11,7 @@ import mobleafright from "../../../public/assets/mob-veins-right.png"
 const Farmhouse = () => {
   return (
     <>
-      <section className="bg-[url('/assets/farm.png')] bg-cover  flex items-center lg:px-10 py-10 mt-10">
+      <section className="bg-[url('/assets/farm.png')] bg-cover  flex items-center lg:px-10 py-10 mt-10" id="farmland">
         <div className=" lg:flex rounded-3xl  align-items-center bg-white sm:px-2 sm:py-2  lg:px-10 lg:py-10 gap-10">
           <div className="lg:w-1/2 flex items-center  ">
             <Image src={farm} alt="farm" className="rounded-3xl " />
@@ -26,13 +26,11 @@ const Farmhouse = () => {
             </p>
 
             <p className="mt-8 lg:text-lg text-[#7D7D7D] text-justify tracking-wide">
-              Narayankhed, Hyderabad, is a high-growth corridor known for its
+             Sangareddy, Hyderabad, is a high-growth corridor known for its
               fertile soil and strong agricultural prospects. As a stable and
               secure investment, farmland here offers significant appreciation
               potential due to increasing demand for both agricultural and
-              residential development. Make the wise decision to secure high
-              returns on investment with Narayankhed’s promising land
-              opportunities.
+              residential development. 
             </p>
             <p className="mt-5  text-[#7D7D7D] text-justify tracking-wide lg:text-lg">
               The earlier you begin investing, the more time you have to see

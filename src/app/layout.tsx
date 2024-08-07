@@ -4,8 +4,9 @@ import "./globals.css";
 import Header from "@/Components/header";
 import Footer from "@/Components/footer";
 import Container from "@/Components/container";
-// import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import GoogleTagManager from "@/Components/GoogleTagManager";
+import ScrollToTopButton from "@/Components/ScrollToTop";
 
 const inter = Poppins({ weight: "400", subsets: ["latin"], display: "swap" });
 
@@ -21,6 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="AW-11454847573" />
+
       <body
         className={`${inter.className}  bg-zinc-100 text-zinc-800  min-h-screen  `}
       >
@@ -31,6 +34,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </Container>
+        <ScrollToTopButton />
       </body>
     </html>
   );

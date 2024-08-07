@@ -7,16 +7,18 @@ import insta from "./../../public/assets/icons/insta.png";
 import ln from "./../../public/assets/icons/ln.png";
 import yu from "./../../public/assets/icons/youtube.png";
 import Qr from "./../../public/assets/QRcode.jpg";
+
 const Footer = () => {
   return (
-    <footer className=" text-zinc-400 ">
+    <footer className=" text-zinc-400 relative">
       <Image src={footer} alt="footerimg" />
       <section className="bg-[#0C352C]  px-10 py-5">
         <div className="lg:flex ">
           <div className="lg:w-1/2 sm:flex sm:flex-col sm:items-center lg:block md:block">
             <Image src={footerlogo} alt="logo" />
-            <p className="text-white  mt-3 sm:text-center lg:text-justify md:text-left"> 
-              Kapil Farms presents an exceptional opportunity to experience<br/>
+            <p className="text-white  mt-3 sm:text-center lg:text-justify md:text-left">
+              Kapil Farms presents an exceptional opportunity to experience
+              <br />
               tranquility away from the fast-paced urban environment.
             </p>
           </div>
@@ -29,23 +31,35 @@ const Footer = () => {
             </p>
             <ul className="flex gap-5 mt-2">
               <li>
-                <Link href="https://www.facebook.com/profile.php?id=61556147414387 " target="_blank">
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61556147414387 "
+                  target="_blank"
+                >
                   <Image src={fb} alt="fb" className="w-10" />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.instagram.com/mruganayani_farms/ " target="_blank">
-                  <Image src={insta} alt="insta" className="w-10"/>
+                <Link
+                  href="https://www.instagram.com/mruganayani_farms/ "
+                  target="_blank"
+                >
+                  <Image src={insta} alt="insta" className="w-10" />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.linkedin.com/company/mruganayani-farms/ " target="_blank">
-                  <Image src={ln} alt="ln" className="w-10"/>
+                <Link
+                  href="https://www.linkedin.com/company/mruganayani-farms/ "
+                  target="_blank"
+                >
+                  <Image src={ln} alt="ln" className="w-10" />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.youtube.com/@KapilMruganayani " target="_blank">
-                  <Image src={yu} alt="ln" className="w-10"/>
+                <Link
+                  href="https://www.youtube.com/@KapilMruganayani "
+                  target="_blank"
+                >
+                  <Image src={yu} alt="ln" className="w-10" />
                 </Link>
               </li>
             </ul>
@@ -54,7 +68,10 @@ const Footer = () => {
         <div className="lg:flex mt-5">
           <div className="md:w-2/3 sm:flex sm:flex-col sm:items-center lg:block">
             <Image src={Qr} alt="qr" className="w-40" />
-            <p className="text-white text-md mt-2">For more info scan here<br/> Number - 9839837280</p>
+            <p className="text-white text-md mt-2">
+              For more info scan here
+              <br /> Number - 9839837280
+            </p>
           </div>
           <div className="lg:w-2/3 flex flex-col justify-end py-5 sm:hidden md:flex lg:flex">
             <h1 className="text-3xl font-bold text-[#7ABF4E] tracking-wide lg:text-right ">
@@ -62,27 +79,33 @@ const Footer = () => {
             </h1>
             <ul className="flex justify-between mt-2 ">
               <li>
-                <Link href="#" className="text-white uppercase text-sm">
+                <Link href="#whoweare" className="text-white uppercase text-sm">
                   who are we
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white uppercase text-sm">
+                <Link
+                  href="#highlights"
+                  className="text-white uppercase text-sm"
+                >
                   HIGHLIGHTS
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white uppercase text-sm">
+                <Link href="farmland" className="text-white uppercase text-sm">
                   Farmland
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white uppercase text-sm">
+                <Link
+                  href="#highlights"
+                  className="text-white uppercase text-sm"
+                >
                   Amenities
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-white uppercase text-sm">
+                <Link href="#contact" className="text-white uppercase text-sm">
                   CONTACT US
                 </Link>
               </li>
